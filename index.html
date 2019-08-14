@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HIGH NOON</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Added a link to our external stylesheets-->
+
+</head>
+
+<body> 
+
+    <h1>It's Time to Draw! Press any key to start!</h1>
+      <h2>Think fast amigo!</h2>
+
+    <!-- word container -->
+    <div>
+        <h2 id="currentWord">_ _ _ _ _</h2>
+    </div>
+
+    <!-- guesses -->
+	<div id="scoreBoard">
+      <h3>Shots Left!:
+          <span id="numGuesses"></span>
+      </h3>
+    </div>
+
+    <!-- wrong guesses -->
+    <div>
+            <h3>Missed Shots!: 
+                <span id="wrongGuess"></span>
+            </h3>
+        </div>
+
+    <!-- wins and losses containter -->
+    <div id="winsLosses">
+		<p>Rides into the sunset: 
+            <span id="wins"></span>
+        </p>
+		<p>Visits to the undertaker:
+            <span id="losses"></span>
+        </p>
+    </div>
+    
+
+
+    <script src="./assets/javascript/game.js"></script>
+
+</body>
+</html>
